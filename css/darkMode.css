@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+
+:root {
+  --font-color-logo-green: #05AC04;
+  --font-color-logo-red: #E9575E;
+  --font-color-logo-white: #FFFFFF;
+  --color-background-promocao: #4E6E5D;
+  --color-background-cartao-red: #8B2635;
+  --color-background-cartao-white: #FFFFFF;
+  --color-background-cardapio: #F7F7F9;
+  --color-background-botao: #D9D9D9;
+  --color-background-sobre-nos: #A9B2AC;
+  --color-background-dark: #1A1A1A;
+  --color-background-low-dark: #1F1F1F;
+  --font-family-logo: 'Lakki Reddy', cursive;
+  --font-family-website: 'Inter', sans-serif;
+}
+
+.body-escuro {
+  background-color: var(--color-background-dark);
+  transition: background .3s;
+}
+
+.cabecalho-escuro {
+  background-color: var(--color-background-dark);
+  transition: background .3s;
+}
+
+.novo-btn-dark {
+  background-color: var(--font-color-logo-green);
+  left: 55%;
+  transition: all ease .3s;
+}
+
+.darkMode {
+  background-color: var(--color-background-low-dark);
+  transition: all ease .3s;
+}
+
+.novosLinks {
+  color: var(--color-background-cartao-white);
+  transition: all ease .3s;
+}
+
+.novosLinks:hover {
+  border-bottom: 4px solid var(--font-color-logo-white);
+}
+
+.main-escuro {
+  background-color: var(--color-background-dark);
+  padding-bottom: 60px;
+  transition: all ease .3s;
+}
+
+.novo-main-escuro {
+  background-color: var(--color-background-sobre-nos);
+  padding-bottom: 60px;
+  font-weight: 600;
+  transition: all ease .3s;
+}
+
+.main-pedido-escuro {
+  background-color: var(--color-background-low-dark);
+  color: var(--font-color-logo-white);
+}
+
+.solicitacao-cardapio-escuro {
+  border: none;
+  background-color: var(--color-background-dark);
+}
+
+.nova-tag-link {
+  color: var(--font-color-logo-white);
+  font-style: italic;
+}
+
+.nova-tag-link:hover {
+  color: var(--font-color-logo-green);
+  transition: color .2s;
+}
+
+.conteudo-sobre-nos-escuro {
+  font-size: 1.3rem;
+}
+
+.cardapio-escuro {
+  background-color: var(--color-background-dark);
+  border: 15px solid var(--color-background-low-dark);
+}
+
+.titulo-cardapio-escuro {
+  color: var(--font-color-logo-white);
+}
+
+.opcoes-escuro {
+  background-color: var(--color-background-promocao);
+  color: var(--font-color-logo-white);
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.subtitulo-curiosidades-escuro {
+  background-color: var(--color-background-cartao-white);
+  transition: all ease .3s;
+}
+
+.item-lista-cardapio-escuro {
+  border-bottom: 2px solid var(--font-color-logo-red);
+}
+
+.rodape-escuro {
+  background-color: var(--color-background-low-dark);
+  color: var(--font-color-logo-white);
+  transition: all ease .3s;
+}
+
+.lista-rodape-link-escuro {
+  color: var(--font-color-logo-white);
+}

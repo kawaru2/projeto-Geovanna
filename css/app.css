@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+
+:root {
+  --font-color-logo-green: #05AC04;
+  --font-color-logo-red: #E9575E;
+  --font-color-logo-white: #FFFFFF;
+  --color-background-promocao: #4E6E5D;
+  --color-background-cartao-red: #8B2635;
+  --color-background-cartao-white: #FFFFFF;
+  --color-background-cardapio: #F7F7F9;
+  --color-background-botao: #D9D9D9;
+  --color-background-dark: #1A1A1A;
+  --color-background-low-dark: #1F1F1F;
+  --font-family-logo: 'Lakki Reddy', cursive;
+  --font-family-website: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--font-family-website);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-background-cardapio);
+  padding-bottom: 30px;
+}
+
+.menu-hamburguer {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.linha {
+  height: 3px;
+  width: 30px;
+  background-color: black;
+}
+
+.menu {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 80px;
+  padding-top: 40px;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+}
+
+.nome-da-empresa {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 3.5rem;
+  font-family: var(--font-family-logo);
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+.letra-verde {
+  color: var(--font-color-logo-green);
+}
+
+.letra-vermelha {
+  color: var(--font-color-logo-red);
+}
+
+.letra-branca {
+  color: var(--font-color-logo-white);
+}
+
+.lista {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  font-size: 25px;
+  transition: padding .5s;
+  color: black;
+}
+
+.links:hover {
+  border-bottom: 4px solid var(--font-color-logo-red);
+  padding-bottom: 10px;
+}
+
+.pedido > a {
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--font-color-logo-red);
+  color: var(--font-color-logo-white);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: background .2s;
+}
+
+.pedido > a:hover {
+  background-color: var(--font-color-logo-green);
+}
+
+.menu-principal {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  gap: 50px;
+  background-color: var(--color-background-cardapio);
+}
+
+.conteudo-principal {
+  padding: 50px;
+  background-color: var(--color-background-cardapio);
+}
+
+.btn-dark {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  top: 53px;
+  right: 50px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: var(--font-color-logo-red);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 10%;
+  left: 5px;
+}
+
+.btn-dark:focus, #circle:focus {
+  outline: none;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: var(--color-background-cartao-red);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  width: 60%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.conteudo-cartao {
+  color: var(--font-color-logo-white);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+
+.titulo-cartao {
+  font-size: 2.4rem;
+}
+
+.info-cartao {
+  text-indent: 50px;
+  font-size: 1.5rem;
+  padding: 0 10px;
+}
+
+.btn-cartao {
+  font-size: 1.7rem;
+  color: black;
+  background-color: var(--color-background-botao);
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: all ease .3s;
+  cursor: pointer;
+}
+
+.btn-cartao:hover {
+  transform: scale(1.2);
+  background-color: var(--font-color-logo-green);
+  color: var(--font-color-logo-white);
+}
+
+.imagem-cartao {
+  background-color: white;
+  height: 95%;
+  width: 50%;
+  align-self: center;
+  margin-right: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.subtitulo-curiosidades {
+  width: fit-content;
+  margin: 10px auto;
+  padding: 5px 20px;
+  border: 1px solid var(--color-background-cartao-red);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-size: .9rem;
+  transition: all ease .3s;
+  cursor: default;
+}
+
+.subtitulo-curiosidades:hover {
+  transform: scale(1.2);
+  background-color: var(--color-background-cartao-red);
+  color: white;
+}
+
+.subtitulo {
+  font-weight: 400;
+  text-shadow: 1px 1px 3px var(--color-background-cartao-red);
+}
+
+.rodape {
+  background-color: var(--color-background-cardapio);
+  padding: 30px 0;
+}
+
+.rodape > p {
+  text-align: center;
+  font-size: 1.2rem;
+}

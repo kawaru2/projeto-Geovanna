@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+
+:root {
+  --font-color-logo-green: #05AC04;
+  --font-color-logo-red: #E9575E;
+  --font-color-logo-white: #FFFFFF;
+  --color-background-promocao: #4E6E5D;
+  --color-background-cartao-red: #8B2635;
+  --color-background-cartao-white: #FFFFFF;
+  --color-background-cardapio: #F7F7F9;
+  --color-background-botao: #D9D9D9;
+  --font-family-logo: 'Lakki Reddy', cursive;
+  --font-family-website: 'Inter', sans-serif;
+}
+
+#conteudo-principal-linha {
+  width: 70%;
+  height: 1px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: var(--color-background-promocao);
+}
+
+.sobre-nos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  min-height: 550px;
+  width: 60%;
+  background-color: var(--font-color-logo-white);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.conteudo-sobre-nos {
+  width: 50%;
+  margin-left: 100px;
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 40px;
+}
+
+#conteudo-lateral {
+  width: 25%;
+  margin-right: 20px;
+  padding-left: 35px;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 30px;
+  border-left: 1px solid var(--color-background-cartao-red);
+}
