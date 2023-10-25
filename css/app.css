@@ -147,6 +147,7 @@ body {
   position: absolute;
   top: 10%;
   left: 5px;
+  transition: all .4s;
 }
 
 .btn-dark:focus, #circle:focus {
