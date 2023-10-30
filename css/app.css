@@ -178,12 +178,12 @@ body {
 }
 
 .titulo-cartao {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
 }
 
 .info-cartao {
   text-indent: 50px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 0 10px;
 }
 
@@ -244,4 +244,151 @@ body {
 .rodape > p {
   text-align: center;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1440px) {
+
+  .nome-da-empresa {
+    font-size: 3.3rem;
+  }
+
+  .links, .pedido > a {
+    font-size: 1.4rem;
+  }
+
+  .cartao {
+    height: 450px;
+  }
+
+  .titulo-cartao {
+    font-size: 2.1rem;
+  }
+
+  .info-cartao {
+    font-size: 1.3rem;
+  }
+
+  .btn-cartao {
+    font-size: 1.5rem;
+    padding: 8px 13px;
+  }
+
+  .subtitulo-curiosidades {
+    font-size: .75rem;
+    padding: 5px 17px;
+  }
+
+  .rodape > p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .menu {
+    width: 90%;
+    padding: 70px;
+    padding-top: 40px;
+  }
+
+  .btn-dark {
+    width: 70px;
+  }
+
+  .links, .pedido > a, .btn-cartao {
+    font-size: 1.3rem;
+  }
+  
+  .nome-da-empresa {
+    font-size: 2.9rem;
+  }
+
+  .cartao {
+    width: 75%;
+  }
+
+  .titulo-cartao {
+    font-size: 1.9rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  .nome-da-empresa {
+    font-size: 2.5rem;
+  }
+
+  .menu {
+    width: 95%;
+    padding: 60px;
+    padding-top: 40px;
+  }
+
+  .links, .pedido > a {
+    font-size: 1.1rem;
+  }
+
+  .btn-dark {
+    top: 43px;
+    right: 30px;
+  }
+
+  .cartao {
+    width: 85%;
+    height: 400px;
+  }
+
+  .titulo-cartao {
+    font-size: 1.3rem;
+  }
+
+  .info-cartao {
+    font-size: .95rem;
+    line-height: 25px;
+  }
+
+  .btn-cartao {
+    font-size: 1.3rem;
+    padding: 5px 10px;
+  }
+
+  .rodape > p {
+    font-size: .9rem;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .menu {
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+    position: relative;
+  }
+
+  .nome-da-empresa {
+    font-size: 1.5rem;
+    text-align: end;
+    padding-right: 10px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .menu-hamburguer {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+
+  .btn-dark {
+    display: none;
+  }
+
+  .lista {
+    display: none;
+  }
+
 }
